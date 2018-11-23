@@ -310,11 +310,11 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`**${song.title}**, is now playing!`);
 }
-
-
-client.on('message', message => {
-    if (message.content === 'help') {
-        let helpEmbed = new Discord.RichEmbed()
+client.on('message' , message => {
+if(message.content === '&help') {
+  var EsTeKnAN = new Discord.RichEmbed()
+  .setColor('RANDOM')
+if message.author.send{
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (!)**')
         .addField('play', 'لتشغيل اغنية')
