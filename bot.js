@@ -314,7 +314,7 @@ client.on('message' , message => {
 if(message.content === '&help') {
   var EsTeKnAN = new Discord.RichEmbed()
   .setColor('RANDOM')
-if message.author.send{
+  message.author.send{
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (!)**')
         .addField('play', 'لتشغيل اغنية')
