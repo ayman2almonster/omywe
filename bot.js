@@ -149,7 +149,7 @@ client.on('message', async msg => {
                     .setDescription(`
                     ${videos.map(video2 => `${++index}. **${video2.title}**`).join('\n')}`)
                     
-					.setColor("#f7abab")
+					.setColor("RANDOM")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 /////////////////					
